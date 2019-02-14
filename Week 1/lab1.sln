@@ -1,15 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
+# Blend for Visual Studio 15
 VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{919DD235-028E-4868-AA3C-EDF93ACF3943}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1", "ConsoleApp1\Task1.csproj", "{919DD235-028E-4868-AA3C-EDF93ACF3943}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp2", "ConsoleApp2\ConsoleApp2.csproj", "{1A1747BD-D6EE-408A-95F2-13E2489740A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp3", "ConsoleApp3\ConsoleApp3.csproj", "{3BAB57F6-261B-4A1D-9E88-0BDDADED9FD6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task3", "ConsoleApp3\Task3.csproj", "{3BAB57F6-261B-4A1D-9E88-0BDDADED9FD6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp4", "ConsoleApp4\ConsoleApp4.csproj", "{8EE173FC-24B2-4519-9858-740E0820F02F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task4", "ConsoleApp4\Task4.csproj", "{8EE173FC-24B2-4519-9858-740E0820F02F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -20,7 +20,7 @@ namespace ConsoleApp2
             int n = 1;
             for (int i = 0; i < 4; i++)
             {
-                Console.WriteLine(name + " " + id + " " + n++);
+                Console.WriteLine(name + " " + id + " " + n++);         //Function will write student name and id 4 times repeatedly
             }
         }
     }
@@ -28,8 +28,8 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            Student a = new Student("Alibek", "18BD110");
-            a.PrintInfo();
+            Student a = new Student("Alibek", "18BD110");       //Student info, entering the class
+            a.PrintInfo();                  //Calling function
         }
     }
 }

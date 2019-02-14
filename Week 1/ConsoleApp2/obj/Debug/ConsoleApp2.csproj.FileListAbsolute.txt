@@ -11,3 +11,10 @@ C:\Users\Алибек\source\repos\PP2labs\ConsoleApp1\ConsoleApp2\obj\Debug\Con
 C:\Users\Алибек\source\repos\PP2labs\ConsoleApp1\ConsoleApp2\obj\Debug\ConsoleApp2.csproj.CoreCompileInputs.cache
 C:\Users\Алибек\source\repos\PP2labs\ConsoleApp1\ConsoleApp2\obj\Debug\ConsoleApp2.exe
 C:\Users\Алибек\source\repos\PP2labs\ConsoleApp1\ConsoleApp2\obj\Debug\ConsoleApp2.pdb
+C:\Users\Алибек\source\repos\PP2\Week 1\ConsoleApp2\bin\Debug\ConsoleApp2.exe.config
+C:\Users\Алибек\source\repos\PP2\Week 1\ConsoleApp2\bin\Debug\ConsoleApp2.exe
+C:\Users\Алибек\source\repos\PP2\Week 1\ConsoleApp2\bin\Debug\ConsoleApp2.pdb
+C:\Users\Алибек\source\repos\PP2\Week 1\ConsoleApp2\obj\Debug\ConsoleApp2.csprojAssemblyReference.cache
+C:\Users\Алибек\source\repos\PP2\Week 1\ConsoleApp2\obj\Debug\ConsoleApp2.csproj.CoreCompileInputs.cache
+C:\Users\Алибек\source\repos\PP2\Week 1\ConsoleApp2\obj\Debug\ConsoleApp2.exe
+C:\Users\Алибек\source\repos\PP2\Week 1\ConsoleApp2\obj\Debug\ConsoleApp2.pdb

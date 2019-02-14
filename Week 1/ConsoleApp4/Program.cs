@@ -11,13 +11,14 @@ namespace ConsoleApp4
         static void Main(string[] args)
         {
             int a = int.Parse(Console.ReadLine());
-            for (int i = 1; i <= a; i++)
+
+            for (int i = 1; i <= a; i++)                //Creating 2 dimensional array
             {
-                for (int j = 1; j <= i; j++)
+                for (int j = 1; j <= i; j++)            
                 {
-                    Console.Write("[*]");
+                    Console.Write("[*]");               //Filling with stars
                 }
-                Console.Write("\n");
+                Console.Write("\n");                    //New line
             }
         }
     }
