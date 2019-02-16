@@ -69,7 +69,7 @@ namespace ConsoleApp1
                     {
                         d = new DirectoryInfo(fsis[cursor].FullName); // create new directory of folder
                         n = d.GetFileSystemInfos().Length;
-                        cursor = 0; // обнулить курсор
+                        cursor = 0;
                     }
                     if (fsis[cursor].GetType() == typeof(FileInfo)) // if file
                     {
@@ -112,7 +112,7 @@ namespace ConsoleApp1
                         }
                     }
                 }
-                if (keyInfo.Key == ConsoleKey.F2) // при нажатии "R"
+                if (keyInfo.Key == ConsoleKey.F2) //press F2
                 {
 
                     if (fsis[cursor].GetType() == typeof(DirectoryInfo)) // if folder
@@ -145,7 +145,7 @@ namespace ConsoleApp1
                             newpath = newpath + dirPath[i];
                         }
                         newpath = newpath + s; 
-                        File.Move(dirPath, newpath);
+                        Directory.Move(dirPath, newpath);
                     }
                 }
 
