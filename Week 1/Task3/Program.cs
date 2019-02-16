@@ -8,23 +8,35 @@ namespace ConsoleApp3
 {
     class Program
     {
+        static void method(string a, string b)
+        {
+            int n = int.Parse(a);
+            string[] arr = b.Split(' ');    //creating a string array
+            int[] array = new int[n];       //creating integer array
+            for (int i = 0; i < n; i++)
+            {
+                int x = int.Parse(arr[i]);  //parsing string elements to an integer
+                array[i] = x;               //adding integer elemnts to array "array"
+
+            }
+            List<int> list = new List<int>();   //creating new list
+            for (int i = 0; i < n; i++)
+            {
+                for (int j = 0; j < 2; j++)
+                {
+                    list.Add(array[i]);         //add "array" into list 2 times
+                }
+            }
+            for (int i = 0; i < list.Count; i++)
+            {
+                Console.Write(list[i] + " ");   //write list
+            }
+        }
         static void Main(string[] args)
         {
-            int n = int.Parse(Console.ReadLine());          //Inserting the size of an array
-            int[] a = new int[n];                           //Creating an array
-
-            string[] nums = Console.ReadLine().Split();     //Reading numbers of array
-
-            for(int i=0;i<n;i++)
-            {
-                a[i] = int.Parse(nums[i]);                  //Converting numbers into integer
-            }
-            for(int i = 0;i<a.Length;i++)
-            {
-                Console.Write(a[i]+" ");                    //Writing one element of an array
-                for (int j = i; j < i + 1; j++)             
-                    Console.Write(a[j] + " ");              //Writing an element of an array again. j is equal to i, it writes elements till the next element(i+1),it means only one element
-            }
+            string n = Console.ReadLine();//number of elements 
+            string s = Console.ReadLine();//elements of array
+            method(n, s);//calling function method
         }
     }
 }
